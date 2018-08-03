@@ -1,4 +1,3 @@
-
 .circle {
     border-radius: 50%;
     margin: 0 auto;
@@ -10,14 +9,15 @@
   }
 
   #big_circle {
-    background-color: #dc9732;
     width: 70vh;
     height: 70vh;
   }
 
   #small_circle {
-    background-color: #cb8621;
+    background-color: #a62516;
     width: 60vh;
     height: 60vh;
     margin: 5vh;
   }
+
+  

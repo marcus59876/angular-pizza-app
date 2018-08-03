@@ -1,1 +1,25 @@
-<outer-crust></outer-crust>
+<h1 class="text-center">Pizza Builder Angular App</h1>
+
+<div class="row" style="padding-top: 50px"> 
+  <div class="col-md-6">
+      <div class="container text-center">
+          <h1>Menu:</h1>
+          <form>
+            <div class="form-group">
+                <input [(ngModel)]="sauce" name="sauce" type="checkbox" id="sauce" > Sauce <br>
+                <input [(ngModel)]="cheese" name="cheese" type="checkbox" id="cheese" > Cheese <br>
+                <input [(ngModel)]="pepperoni" name="pepperoni" type="checkbox" id="pepperoni" > Pepperoni <br>
+                <input [(ngModel)]="olives" name="olives" type="checkbox" id="olives" > Olives <br>
+            </div>
+          </form>
+        </div>
+  </div>
+  <div class="col-md-6" >
+    <outer-crust></outer-crust>
+    <app-sauce [typeSauce] = "sauceType" *ngIf="sauce"></app-sauce>
+    <app-cheese *ngIf="cheese"></app-cheese>
+    <app-pepperoni *ngIf="pepperoni"></app-pepperoni>
+    <app-olives *ngIf="olives"></app-olives>
+</div>
+</div>
+

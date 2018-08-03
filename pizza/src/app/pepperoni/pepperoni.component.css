@@ -1,0 +1,95 @@
+.pepperoni {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: 50%;
+    top: 30%;
+}
+
+.pepperoni:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: -150%;
+    top: 130%;
+}
+
+.pepperoni:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: 150%;
+    top: 180%;
+}
+
+.pepperoni2 {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: 45%;
+    top: 160%;
+}
+
+.pepperoni2:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: -150%;
+    top: 130%;
+}
+
+.pepperoni2:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: 150%;
+    top: 150%;
+}
+
+.pepperoni3 {
+    position: absolute;
+    width: 10%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: 20%;
+    top: 150%;
+}
+
+.pepperoni3:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: 100%;
+    top: -296%;
+}
+
+.pepperoni3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #8d2911;
+    left: 500%;
+    top: 15%;
+}
