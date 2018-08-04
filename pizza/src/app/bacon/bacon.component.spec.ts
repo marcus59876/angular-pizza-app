@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { OuterCrustComponent } from './outer-crust.component';
+import { BaconComponent } from './bacon.component';
 
-describe('OuterCrustComponent', () => {
-  let component: OuterCrustComponent;
-  let fixture: ComponentFixture<OuterCrustComponent>;
+describe('BaconComponent', () => {
+  let component: BaconComponent;
+  let fixture: ComponentFixture<BaconComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OuterCrustComponent ]
+      declarations: [ BaconComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(OuterCrustComponent);
+    fixture = TestBed.createComponent(BaconComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

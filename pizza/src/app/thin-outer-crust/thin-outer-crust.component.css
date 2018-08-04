@@ -1,23 +1,24 @@
+
 .circle {
     border-radius: 50%;
     margin: 0 auto;
     position: absolute;
-    top: 0;
+    top: 2.5vh;
     bottom: 0;
     left: 0;
     right: 0;
   }
 
   #big_circle {
-    width: 70vh;
-    height: 70vh;
+    background-color: #dc9732;
+    width: 65vh;
+    height: 65vh;
   }
 
   #small_circle {
-    background-color: #ea350d;
+    background-color: #cb8621;
     width: 60vh;
     height: 60vh;
-    margin: 5vh;
+    margin: 2.5vh;
+    top: 0vh;
   }
-
-  

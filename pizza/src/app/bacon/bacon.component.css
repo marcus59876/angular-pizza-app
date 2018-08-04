@@ -1,0 +1,260 @@
+.b4 {
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .bacon {
+    width: 2vh;
+    height: 2vh;
+    top: 15vh;
+    left: -34vh; 
+    transform: rotate(-20deg);
+  }
+  
+  .red {
+    position: relative;
+    background: #960000;
+    width: 6vh;
+    height: 1vh; 
+  }
+  
+  .white {
+    position: relative;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+  }
+  
+  .red:after {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: 29vh;
+    left: 23vh;
+  }
+  
+  .white:after {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: 29vh;
+    left: 23vh;
+  }
+  
+  .red:before {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: 8vh;
+    left: 28vh;
+  }
+  
+  .white:before {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: 8vh;
+    left: 28vh;
+  }
+  
+  .bacon2 {
+    width: 2vh;
+    height: 2vh;
+    top: 19vh;
+    left: -6vh;
+  }
+  
+  .red2 {
+    position: relative;
+    background: #960000;
+    width: 6vh;
+    height: 1vh; 
+  }
+  
+  .white2 {
+    position: relative;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+  }
+  
+  .red2:after {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: 29vh;
+    left: -18vh;
+    transform: rotate(-20deg);
+  }
+  
+  .white2:after {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: 29vh;
+    left: -18vh;
+    transform: rotate(-20deg);
+  }
+  
+  .red2:before {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: 15vh;
+    left: -12vh;
+    transform: rotate(20deg);
+  }
+  
+  .white2:before {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: 15vh;
+    left: -12vh;
+    transform: rotate(20deg);
+  }
+  
+  .bacon3 {
+    width: 2vh;
+    height: 2vh;
+    top: 45vh;
+    left: -6vh;
+    transform: rotate(80deg);
+  }
+  
+  .red3 {
+    position: relative;
+    background: #960000;
+    width: 6vh;
+    height: 1vh; 
+  }
+  
+  .white3 {
+    position: relative;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+  }
+  
+  .red3:after {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: 17vh;
+    left: -18vh;
+  }
+  
+  .white3:after {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: 17vh;
+    left: -18vh;
+  }
+  
+  .red3:before {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: -10vh;
+    left: -12vh;
+  }
+  
+  .white3:before {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: -10vh;
+    left: -12vh;
+  }
+  
+  .bacon4 {
+    width: 2vh;
+    height: 2vh;
+    top: 52vh;
+    left: 25vh;
+    transform: rotate(-50deg);
+  }
+  
+  .red4 {
+    position: relative;
+    background: #960000;
+    width: 6vh;
+    height: 1vh; 
+  }
+  
+  .white4 {
+    position: relative;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+  }
+  
+  .red4:before {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: -5vh;
+    left: -12vh;
+  }
+  
+  .white4:before {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: -5vh;
+    left: -12vh;
+  }
+  
+  .red4:after {
+    content: '';
+    position: absolute;
+    background: #960000;
+    width: 6vh;
+    height: 1vh;
+    top: -38vh;
+    left: 21vh;
+  }
+  
+  .white4:after {
+    content: '';
+    position: absolute;
+    background: #f8967b;
+    width: 6vh;
+    height: 1vh;
+    top: -38vh;
+    left: 21vh;
+  }

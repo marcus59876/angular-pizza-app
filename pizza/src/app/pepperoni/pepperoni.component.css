@@ -10,7 +10,7 @@
   
 .pepperoni {
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     width: 8vh;
     height: 8vh;
     top: 12vh;
@@ -20,7 +20,7 @@
   .pepperoni:before {
     content: '';
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     border-radius: 50%;
     width: 8vh;
     height: 8vh;
@@ -31,7 +31,7 @@
   .pepperoni:after {
     content: '';
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     border-radius: 50%;
     width: 8vh;
     height: 8vh;
@@ -41,7 +41,7 @@
   
   .pepperoni2 {
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     width: 8vh;
     height: 8vh;
     top: 30vh;
@@ -51,7 +51,7 @@
   .pepperoni2:before {
     content: '';
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     border-radius: 50%;
     width: 8vh;
     height: 8vh;
@@ -62,7 +62,7 @@
   .pepperoni2:after {
     content: '';
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     border-radius: 50%;
     width: 8vh;
     height: 8vh;
@@ -72,7 +72,7 @@
   
   .pepperoni3 {
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     width: 8vh;
     height: 8vh;
     top: 25vh;
@@ -82,7 +82,7 @@
   .pepperoni3:before {
     content: '';
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     border-radius: 50%;
     width: 8vh;
     height: 8vh;
@@ -93,7 +93,7 @@
   .pepperoni3:after {
     content: '';
     position: absolute;
-    background-color: #8d2911;
+    background-color: #c5402f;
     border-radius: 50%;
     width: 8vh;
     height: 8vh;

@@ -1,0 +1,121 @@
+.half-circle {
+    border-top-left-radius: 50%;  
+    border-top-right-radius: 50%; 
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.green-onions {
+    position: absolute;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 16vh;
+    left: -36vh;
+    transform: rotate(-50deg);
+  }
+  
+  .green-onions:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 12vh;
+    left: -9vh;
+    transform: rotate(-120deg);
+  }
+  
+  .green-onions:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 26vh;
+    left: 19vh;
+    transform: rotate(-10deg);
+  }
+  
+  .green-onions2 {
+    position: absolute;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 12vh;
+    left: 6vh;
+    transform: rotate(70deg);
+  }
+  
+  .green-onions2:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 19vh;
+    left: 29vh;
+    transform: rotate(-120deg);
+  }
+  
+  .green-onions2:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 31vh;
+    left: 19vh;
+    transform: rotate(-10deg);
+  }
+  
+  .green-onions3 {
+    position: absolute;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 36vh;
+    left: 25vh;
+    transform: rotate(0deg);
+  }
+  
+  .green-onions3:before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 20vh;
+    left: -7vh;
+    transform: rotate(-120deg);
+  }
+  
+  .green-onions3:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    border: solid 1vh green;
+    border-bottom-color: transparent;
+    width: 8vh;
+    height: 2vh;
+    top: 10vh;
+    left: 9vh;
+    transform: rotate(-10deg);
+  }

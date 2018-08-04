@@ -10,7 +10,7 @@
 
 .olives {
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   width: 3vh;
   height: 3vh;
   top: 10vh;
@@ -20,7 +20,7 @@
 .olives:before {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;
@@ -31,7 +31,7 @@
 .olives:after {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;
@@ -41,7 +41,7 @@
 
 .olives2 {
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   width: 3vh;
   height: 3vh;
   top: 40vh;
@@ -51,7 +51,7 @@
 .olives2:before {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;
@@ -62,7 +62,7 @@
 .olives2:after {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;
@@ -72,7 +72,7 @@
 
 .olives3 {
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   width: 3vh;
   height: 3vh;
   top: 26vh;
@@ -82,7 +82,7 @@
 .olives3:before {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;
@@ -93,7 +93,7 @@
 .olives3:after {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;
@@ -103,7 +103,7 @@
 
 .olives4 {
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   width: 3vh;
   height: 3vh;
   top: 13vh;
@@ -113,7 +113,7 @@
 .olives4:before {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;
@@ -124,7 +124,7 @@
 .olives4:after {
   content: '';
   position: absolute;
-  border: solid 6px black;
+  border: solid 1.2vh black;
   border-radius: 50%;
   width: 3vh;
   height: 3vh;

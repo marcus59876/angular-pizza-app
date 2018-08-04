@@ -1,0 +1,127 @@
+.semi-circle {
+    border-top-left-radius: 50%;  
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.ham {
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    position: absolute;
+    width: 6vh;
+    height:6vh;
+    top: 16vh;
+    left: -36vh;
+}
+
+.ham:before {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    width: 6vh;
+    height:6vh;
+    top: 12vh;
+    left: 19vh;
+    transform: rotate(-45deg);
+}
+
+.ham:after {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    width: 6vh;
+    height:6vh;
+    top: -8vh;
+    left: 23vh;
+    transform: rotate(-90deg);
+}
+
+.ham2 {
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    position: absolute;
+    width: 6vh;
+    height:6vh;
+    top: 36vh;
+    left: -46vh;
+}
+
+.ham2:before {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    width: 6vh;
+    height:6vh;
+    top: 12vh;
+    left: 39vh;
+    transform: rotate(65deg);
+}
+
+.ham2:after {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    width: 6vh;
+    height:6vh;
+    top: -8vh;
+    left: 43vh;
+    transform: rotate(10deg);
+}
+
+.ham3 {
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    position: absolute;
+    width: 6vh;
+    height:6vh;
+    top: 55vh;
+    left: -6vh;
+}
+
+.ham3:before {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    width: 6vh;
+    height:6vh;
+    top: -35vh;
+    left: -4vh;
+    transform: rotate(65deg);
+}
+
+.ham3:after {
+    content: "";
+    position: absolute;
+    border-top-left-radius: 50%;
+    border-style: solid none none solid;
+    border-color: brown;
+    background: pink;
+    width: 6vh;
+    height:6vh;
+    top: -14vh;
+    left: -4vh;
+    transform: rotate(10deg);
+}
+

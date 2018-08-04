@@ -1,0 +1,104 @@
+.circle {
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+.onions {
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    width: 10vh;
+    height: 10vh;
+    top: 10vh;
+    left: -12vh;
+  }
+  
+  .onions:before {
+    content: '';
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 5vh;
+    left: 23vh;
+  }
+  
+  .onions:after {
+    content: '';
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 13vh;
+    left: 3vh;
+  }
+  
+  .onions2 {
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 40vh;
+    left: -12vh;
+  }
+  
+  .onions2:before {
+    content: '';
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 5vh;
+    left: 23vh;
+  }
+  
+  .onions2:after {
+    content: '';
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 13vh;
+    left: 3vh;
+  }
+  
+  .onions3 {
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 26vh;
+    left: -39vh;
+  }
+  
+  .onions3:before {
+    content: '';
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 5vh;
+    left: 28vh;
+  }
+  
+  .onions3:after {
+    content: '';
+    position: absolute;
+    background: radial-gradient( transparent 0%, transparent 59%, #ffffff 61%, #ffffff 63%, #9466CC 68%, #9466CC 75%);
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    top: 15vh;
+    left: -3vh;
+  }
