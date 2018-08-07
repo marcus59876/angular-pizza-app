@@ -4,34 +4,45 @@
   <div class="col-md-6">
       <div class="container text-center">
           <h1>Menu:</h1>
-          <form>
+          <form #f="ngForm" (ngSubmit)="submit(f)">
             <div class="form-group">
-                <input [(ngModel)]="thincrust" name="thincrust" type="checkbox" id="thincrust" > Thin Crust <br>
-                <input [(ngModel)]="thickcrust" name="thickcrust" type="checkbox" id="thickcrust" > Thick Crust <br>
-                <input [(ngModel)]="sauce" name="sauce" type="checkbox" id="sauce" > Sauce <br>
-                <input [(ngModel)]="cheese" name="cheese" type="checkbox" id="cheese" > Cheese <br>
-                <input [(ngModel)]="pepperoni" name="pepperoni" type="checkbox" id="pepperoni" > Pepperoni <br>
-                <input [(ngModel)]="olives" name="olives" type="checkbox" id="olives" > Olives <br>
-                <input [(ngModel)]="bacon" name="bacon" type="checkbox" id="bacon" > Bacon <br>
-                <input [(ngModel)]="onions" name="onions" type="checkbox" id="onions" > Onions <br>
-                <input [(ngModel)]="greenonions" name="green-onions" type="checkbox" id="green-onions" > Green Onions <br>
-                <input [(ngModel)]="ham" name="ham" type="checkbox" id="ham" > Ham <br>
+                <input #small="ngModel" ngModel name="small" type="radio" id="small"> Small <br>
+                <input #medium="ngModel" ngModel name="medium" type="radio" id="medium"> Medium <br>
+                <input #large="ngModel" ngModel name="large" type="radio" id="large"> Large <br>
+                <input #xl="ngModel" ngModel name="xl" type="radio" id="xl"> X-large <br>
+                <input #thincrust="ngModel" ngModel name="thincrust" type="checkbox" id="thincrust" [disabled]="isThick(thickcrust.value)"> Thin Crust <br>
+                <input #thickcrust="ngModel" ngModel  name="thickcrust" type="checkbox" id="thickcrust" [disabled]="isThin(thincrust.value)"> Thick Crust <br>
+                <input #sauce="ngModel" ngModel name="sauce" type="checkbox" id="sauce" > Sauce <br>
+                <input #cheese="ngModel" ngModel name="cheese" type="checkbox" id="cheese" > Cheese <br>
+                <input #pepperoni="ngModel" ngModel name="pepperoni" type="checkbox" id="pepperoni" > Pepperoni <br>
+                <input #olives="ngModel" ngModel name="olives" type="checkbox" id="olives" > Olives <br>
+                <input #bacon="ngModel" ngModel name="bacon" type="checkbox" id="bacon" > Bacon <br>
+                <input #onions="ngModel" ngModel name="onions" type="checkbox" id="onions" > Onions <br>
+                <input #greenonions="ngModel" ngModel name="green-onions" type="checkbox" id="green-onions" > Green Onions <br>
+                <input #ham="ngModel" ngModel name="ham" type="checkbox" id="ham" > Ham <br>
+                <input #pineapple="ngModel" ngModel name="pineapple" type="checkbox" id="pineapple" > Pineapple <br>
+                <input #sausage="ngModel" ngModel name="sausage" type="checkbox" id="sausage" > Sausage <br>
+                {{message}}
             </div>
+
+            <button type="submit" [disabled]="hasCrust(thincrust.value,thickcrust.value)">Place Order </button>
           </form>
         </div>
   </div>
   <div class="col-md-6 text-center">
-    <h2>Pizza Will <br>Display Here</h2>
-    <thick-outer-crust *ngIf="thickcrust && !thincrust"></thick-outer-crust>
-    <thin-outer-crust *ngIf="thincrust && !thickcrust"></thin-outer-crust>
-    <app-sauce  *ngIf="sauce"></app-sauce>
-    <app-cheese *ngIf="cheese"></app-cheese>
-    <app-pepperoni *ngIf="pepperoni"></app-pepperoni>
-    <app-ham *ngIf="ham"></app-ham>
-    <app-bacon *ngIf="bacon"></app-bacon>
-    <app-onions *ngIf="onions"></app-onions>
-    <app-olives *ngIf="olives"></app-olives>
-    <app-green-onions *ngIf="greenonions"></app-green-onions>
+    <h2 *ngIf="thincrust._parent.pristine">Pizza Will <br>Display Here</h2>
+    <thick-outer-crust *ngIf="!thincrust.value && thickcrust.value"></thick-outer-crust>
+    <thin-outer-crust *ngIf="thincrust.value && !thickcrust.value"></thin-outer-crust>
+    <app-sauce  *ngIf="sauce.value"></app-sauce>
+    <app-cheese *ngIf="cheese.value"></app-cheese>
+    <app-pepperoni *ngIf="pepperoni.value"></app-pepperoni>
+    <app-ham *ngIf="ham.value"></app-ham>
+    <app-bacon *ngIf="bacon.value"></app-bacon>
+    <app-sausage *ngIf="sausage.value"></app-sausage>
+    <app-onions *ngIf="onions.value"></app-onions>
+    <app-olives *ngIf="olives.value"></app-olives>
+    <app-pineapple *ngIf="pineapple.value"></app-pineapple>
+    <app-green-onions *ngIf="greenonions.value"></app-green-onions>
     
 </div>
 </div>

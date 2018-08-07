@@ -1,0 +1,141 @@
+.position-sausage {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+
+.sausage{
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: 30vh;
+    left: 37vh;
+}
+
+.sausage:before {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: -10vh;
+    left: -37vh;
+    transform: rotate(36deg);
+}
+
+.sausage:after {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: 12vh;
+    left: -17vh;
+    transform: rotate(-16deg);
+}
+
+.sausage2 {
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: 50vh;
+    left: -37vh;
+}
+
+.sausage2:before {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: 4vh;
+    left: 27vh;
+    transform: rotate(36deg);
+}
+
+.sausage2:after {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: -42vh;
+    left: 20vh;
+    transform: rotate(-180deg);
+}
+
+.sausage3 {
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: 25vh;
+    left: -15vh;
+}
+
+.sausage3:before {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: 18vh;
+    left: 28vh;
+    transform: rotate(36deg);
+}
+
+.sausage3:after {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: -12vh;
+    left: 23vh;
+    transform: rotate(-180deg);
+}
+
+.sausage4 {
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: 55vh;
+    left: -13vh;
+}
+
+.sausage4:before {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: -31vh;
+    left: 12vh;
+    transform: rotate(36deg);
+}
+
+.sausage4:after {
+    content: "";
+    position: absolute;
+    border-radius: 40% 75% 75% 100%;
+    background-color: rgb(147, 73, 6); 
+    width: 5vh;
+    height: 5vh;
+    top: -18vh;
+    left: -19vh;
+    transform: rotate(-180deg);
+}
+  

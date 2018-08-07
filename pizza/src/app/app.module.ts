@@ -13,6 +13,9 @@ import { OnionsComponent } from './onions/onions.component';
 import { GreenOnionsComponent } from './green-onions/green-onoins.component';
 import { HamComponent } from './ham/ham.component';
 import { ThinOuterCrustComponent } from './thin-outer-crust/thin-outer-crust.component';
+import { PineappleComponent } from './pineapple/pineapple.component';
+import { CrustService } from './crust.service';
+import { SausageComponent } from './sausage/sausage.component';
 
 @NgModule({
   declarations: [
@@ -26,13 +29,18 @@ import { ThinOuterCrustComponent } from './thin-outer-crust/thin-outer-crust.com
     OnionsComponent,
     GreenOnionsComponent,
     HamComponent,
-    ThinOuterCrustComponent
+    ThinOuterCrustComponent,
+    PineappleComponent,
+    SausageComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [
+    CrustService
+  ],
+  bootstrap: [AppComponent],
+  
 })
 export class AppModule { }

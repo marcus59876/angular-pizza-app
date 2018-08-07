@@ -1,0 +1,152 @@
+.position-pineapple {
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .pineapple {
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 25vh;
+  left: -37vh;
+}
+
+.pineapple:before {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 28vh;
+  left: 6.4vh;
+  transform: rotate(15deg);
+}
+
+.pineapple:after {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: -6vh;
+  left: 23.4vh;
+  transform: rotate(125deg);
+}
+
+.pineapple2 {
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 7vh;
+  left: 0;
+}
+
+.pineapple2:before {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 6.4vh;
+  left: -14vh;
+  transform: rotate(-75deg);
+}
+
+.pineapple2:after {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 30vh;
+  left: -26vh;
+  transform: rotate(45deg);
+}
+
+.pineapple3 {
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 28vh;
+  left: -17.6vh;
+}
+
+.pineapple3:before {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 4vh;
+  left: 11.4vh;
+  transform: rotate(15deg);
+}
+
+.pineapple3:after {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 12vh;
+  left: 22.4vh;
+  transform: rotate(125deg);
+}
+
+.pineapple4 {
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 24vh;
+  left: 32.6vh;
+}
+
+.pineapple4:before {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 16vh;
+  left: -28.4vh;
+  transform: rotate(-25deg);
+}
+
+.pineapple4:after {
+  content: "";
+  position: absolute;
+	border-bottom: 6vh solid #feff80;
+	border-left: 2vh solid transparent;
+	border-right: 2vh solid transparent;
+	height: 0;
+	width: 7vh;
+  top: 29vh;
+  left: -6.4vh;
+  transform: rotate(-105deg);
+}
